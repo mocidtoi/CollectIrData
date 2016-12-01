@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:layout_marginBottom="1dp"
+    android:background="@android:color/white"
+    >
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:textAllCaps="false"
+        android:text="Device Type dddddddddddddddddddd"
+        android:id="@+id/txt_device_type"
+        android:textColor="@android:color/black"
+        android:ellipsize="end"
+        android:lines="1"
+        android:gravity="center_vertical"
+        android:paddingLeft="2dp"
+        />
+    <TextView
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@android:color/black"
+        />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:textAllCaps="false"
+        android:text="Model dddddddddddddddddddddddddddd"
+        android:id="@+id/txt_model"
+        android:textColor="@android:color/black"
+        android:gravity="center_vertical"
+        android:ellipsize="end"
+        android:lines="1"
+        android:paddingLeft="2dp"
+        />
+    <TextView
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@android:color/black"
+        />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:textAllCaps="false"
+        android:text="Name ddddddddddddddddddddddddddd"
+        android:id="@+id/txt_name"
+        android:textColor="@android:color/black"
+        android:gravity="center_vertical"
+        android:ellipsize="end"
+        android:lines="1"
+        android:paddingLeft="2dp"
+        />
+    <TextView
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@android:color/black"
+        />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:textAllCaps="false"
+        android:text="Ir data dddddddddddddddddddddddddddddd"
+        android:id="@+id/txt_ir_data"
+        android:textColor="@android:color/black"
+        android:gravity="center_vertical"
+        android:ellipsize="end"
+        android:lines="1"
+        android:paddingLeft="2dp"
+        />
+    <TextView
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@android:color/black"
+        />
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="36dp"
+        android:layout_weight="1"
+        android:textAllCaps="false"
+        android:text="Test"
+        android:id="@+id/btn_test"
+        />
+</LinearLayout>

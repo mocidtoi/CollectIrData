@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.thanhnv.collectirdata.MainActivity">
+
+    <TableRow
+        android:id="@+id/tr_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        >
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:text="D - Type"
+            android:id="@+id/btn_device_type"
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:text="Model"
+            android:id="@+id/btn_model"
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:text="Name"
+            android:id="@+id/btn_name"
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:text="Ir data"
+            android:id="@+id/btn_ir_data"
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:text=""
+            android:visibility="invisible"
+            />
+    </TableRow>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_database_ir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="54dp"
+        android:background="@android:color/black"
+        android:layout_below="@id/tr_top"
+        android:paddingTop="1dp"
+        >
+
+    </android.support.v7.widget.RecyclerView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_vertical"
+        >
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="48dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="12dp"
+            android:text="Add new ir data"
+            android:textAllCaps="false"
+            android:id="@+id/btn_add"
+            />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="48dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="12dp"
+            android:text="Delete sharepreference"
+            android:textAllCaps="false"
+            android:id="@+id/btn_delete_share"
+            />
+    </LinearLayout>
+</RelativeLayout>
